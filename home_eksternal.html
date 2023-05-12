@@ -1,0 +1,55 @@
+<html>
+<head>
+  <link rel="stylesheet" href="style.css">
+	<title>Epriyani</title>
+</head>
+<body>
+
+<ul>
+  <li><a class="active" href="home.html">Formulir</a></li>
+  <li><a href="biodata+tabel.html">Biodata+Tabel</a></li>
+  <li><a href="my favorite">My Favorite</a></li>
+</ul>
+<div style="margin-left:25%;padding:1px 16px;height:1000px;">
+  <center><font color="White" font size="150" font face="Engravers MT">FORMULIR</font></center>
+<form action="home.html">
+<fieldset>
+<h3> 
+  <label for="fname">First name:</label>
+  <input type="text" id="fname" name="fname"></h3>
+<h3>Jurusan</h3>
+<label for="jurusan">Jurusan:</label>
+  <select id="jurusan" name="jurusan">
+    <option value="PPLG"></option>
+    <option value="PPLG">PPLG</option>
+    <option value="TJK">TJK</option>
+    <option value="ORACLE">ORACLE</option>
+    <option value="AXIOO">AXIOO</option>
+  </select>
+<h3>Kelas</h3>
+  <input type="radio" id="html" name="fav_language" value="HTML">
+  <label for="html">X</label><br>
+  <input type="radio" id="css" name="fav_language" value="CSS">
+  <label for="css">XI</label><br>
+  <input type="radio" id="javascript" name="fav_language" value="JavaScript">
+  <label for="javascript">XII</label><br><br>
+<h3>Hobi</h3>
+  <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+  <label for="vehicle1"> Rebahan</label><br>
+  <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+  <label for="vehicle2"> Membaca</label><br>
+  <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+  <label for="vehicle3"> Tidur</label><br><br>
+<h3>Kisah hari ini :</h3>
+  <textarea name="message" rows="10" cols="30"></textarea>
+  <br><br>
+<h3></h3>
+  <input type="reset">
+  <input type="submit" value="Submit" onclick="alert('Jawaban anda telah di rekam')">
+</fieldset>
+</form>       
+</div>
+<body background="bg.jpg">
+</body>
+</head>
+</html>
